@@ -1,2 +1,0 @@
-# JavaEE-Study
-JavaEE-study

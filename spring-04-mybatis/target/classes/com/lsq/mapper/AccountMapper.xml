@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lsq.mapper.AccountMapper">
+    <select id="selectAccount" resultType="account">
+        select * from account
+    </select>
+
+    <insert id="addAccount" parameterType="com.lsq.pojo.User">
+        insert into account (id,username,balance) values (#{id},#{username},#{balance})
+    </insert>
+    <delete id="deleteAccount" parameterType="int">
+        deletes from user where id = #{id}
+    </delete>
+
+
+</mapper>
