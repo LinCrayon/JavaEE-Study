@@ -16,13 +16,12 @@ public class AccountMapperImpl implements AccountMapper{
         this.sqlSession = sqlSession;
     }
 
-
     @Override
     public List<Account> selectAccount() {
-        Account account = new Account(4,"小明",12.1);
+        Account account = new Account(3,"小币",150.5);
         AccountMapper mapper = sqlSession.getMapper(AccountMapper.class);
         mapper.addAccount(account);
-        mapper.deleteAccount(4);
+        mapper.deleteAccount(7);
         return mapper.selectAccount();
     }
     //新增
@@ -39,6 +38,5 @@ public class AccountMapperImpl implements AccountMapper{
         AccountMapper mapper = sqlSession.getMapper(AccountMapper.class);
         return mapper.deleteAccount(id);
     }
-
 }
 

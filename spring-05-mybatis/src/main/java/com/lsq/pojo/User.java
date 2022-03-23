@@ -7,12 +7,12 @@ import lombok.NoArgsConstructor;
 /**
  * @author linshengqian
  */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Account {
+public class User {
     private int id;
-    private String username;
-    private Double balance;
-
+    private String name;
+    private String pwd;
 }

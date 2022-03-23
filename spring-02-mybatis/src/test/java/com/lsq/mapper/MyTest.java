@@ -15,8 +15,6 @@ public class MyTest {
         AccountMapper accountMapper = context.getBean("accountMapper",AccountMapper.class);
         for (Account account : accountMapper.selectAccount()){
             System.out.println(account);
-
         }
-
     }
 }

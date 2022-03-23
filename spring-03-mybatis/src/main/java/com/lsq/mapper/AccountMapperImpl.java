@@ -17,6 +17,5 @@ public class AccountMapperImpl extends SqlSessionDaoSupport implements
         AccountMapper mapper = getSqlSession().getMapper(AccountMapper.class);
         return mapper.selectAccount();
     }
-
 }
 

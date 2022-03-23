@@ -7,11 +7,11 @@
         select * from account
     </select>
 
-    <insert id="addAccount" parameterType="com.lsq.pojo.User">
+    <insert id="addAccount" parameterType="com.lsq.pojo.Account">
         insert into account (id,username,balance) values (#{id},#{username},#{balance})
     </insert>
     <delete id="deleteAccount" parameterType="int">
-        deletes from user where id = #{id}
+        delete from account where id = #{id}
     </delete>
 
 

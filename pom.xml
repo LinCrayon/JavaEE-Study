@@ -18,6 +18,7 @@
         <module>spring-02-mybatis</module>
         <module>spring-03-mybatis</module>
         <module>spring-04-mybatis</module>
+        <module>spring-05-mybatis</module>
     </modules>
 
     <properties>
@@ -74,6 +75,11 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+        </dependency>
 
     </dependencies>
 

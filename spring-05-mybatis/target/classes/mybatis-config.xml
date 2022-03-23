@@ -11,10 +11,6 @@
     </properties>
 
 
-    <settings>
-        <setting name="logImpl" value="LOG4J"/>
-    </settings>
-
 
     <!--配置别名,注意顺序-->
     <typeAliases>
@@ -36,9 +32,8 @@
     </environments>
 
     <mappers>
-        <mapper resource="com/lsq/dao/userMapper.xml"/>
+        <mapper class="com.lsq.mapper.UserMapper"/>
     </mappers>
-
 
 
 

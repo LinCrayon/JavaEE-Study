@@ -18,26 +18,12 @@ public class MyTest {
             System.out.println(account);
         }
     }
-
-
     @Test
-    public void test2(){
-        ApplicationContext context = new
-                ClassPathXmlApplicationContext("applicationContext.xml");
-        AccountMapper mapper = (AccountMapper)  context.getBean("accountMapper");
-        List<Account> account = mapper.selectAccount();
-        System.out.println(account);
-    }
-
-    @Test
-    public void test3(){
+    public void test02(){
         ApplicationContext context = new
                 ClassPathXmlApplicationContext("applicationContext.xml");
         AccountMapper mapper = (AccountMapper) context.getBean("accountMapper");
         List<Account> account = mapper.selectAccount();
         System.out.println(account);
     }
-
-
-
 }
