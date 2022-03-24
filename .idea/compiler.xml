@@ -7,13 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-04-mybatis" />
         <module name="SpringMVC" />
         <module name="spring-01-mybatis" />
-        <module name="spring-02-mybatis" />
-        <module name="SpringBoot" />
+        <module name="spring-ioc03" />
         <module name="spring-05-mybatis" />
+        <module name="SpringBoot" />
+        <module name="spring-ioc04" />
         <module name="Spring" />
+        <module name="spring-04-mybatis" />
+        <module name="spring-ioc01" />
+        <module name="spring-ioc02" />
+        <module name="spring-02-mybatis" />
         <module name="Mybatis" />
         <module name="spring-03-mybatis" />
       </profile>
@@ -21,5 +25,10 @@
     <bytecodeTargetLevel>
       <module name="Spring Boot" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot" options="-parameters" />
+    </option>
   </component>
 </project>

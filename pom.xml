@@ -19,6 +19,10 @@
         <module>spring-03-mybatis</module>
         <module>spring-04-mybatis</module>
         <module>spring-05-mybatis</module>
+        <module>spring-ioc01</module>
+        <module>spring-ioc02</module>
+        <module>spring-ioc03</module>
+        <module>spring-ioc04</module>
     </modules>
 
     <properties>
