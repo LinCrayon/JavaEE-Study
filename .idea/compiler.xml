@@ -14,9 +14,14 @@
         <module name="SpringBoot" />
         <module name="spring-ioc04" />
         <module name="Spring" />
+        <module name="spring-autowire" />
         <module name="spring-04-mybatis" />
+        <module name="spring-autowire-annotation" />
+        <module name="spring-configure" />
         <module name="spring-ioc01" />
         <module name="spring-ioc02" />
+        <module name="spring-01-di" />
+        <module name="spring-annotation" />
         <module name="spring-02-mybatis" />
         <module name="Mybatis" />
         <module name="spring-03-mybatis" />

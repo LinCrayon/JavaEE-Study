@@ -23,6 +23,11 @@
         <module>spring-ioc02</module>
         <module>spring-ioc03</module>
         <module>spring-ioc04</module>
+        <module>spring-01-di</module>
+        <module>spring-autowire</module>
+        <module>spring-autowire-annotation</module>
+        <module>spring-annotation</module>
+        <module>spring-configure</module>
     </modules>
 
     <properties>
