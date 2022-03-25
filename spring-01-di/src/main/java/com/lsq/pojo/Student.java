@@ -1,9 +1,6 @@
 package com.lsq.pojo;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author linshengqian
@@ -94,5 +91,19 @@ public class Student {
         System.out.println("games:"+games);
         System.out.println("wife:"+wife);
         System.out.println("info:"+info);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", address=" + address.toString() +
+                ", books=" + Arrays.toString(books) +
+                ", hobbys=" + hobbys +
+                ", card=" + card +
+                ", games=" + games +
+                ", wife='" + wife + '\'' +
+                ", info=" + info +
+                '}';
     }
 }

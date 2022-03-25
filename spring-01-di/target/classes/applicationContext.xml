@@ -67,8 +67,8 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="user" class="com.lsq.pojo.User" p:name="lsq" p:age="20">
     </bean>
 
-    <!--C(构造: Constructor)命名空间 , 属性依然要设置set方法-->
-<!--    <bean id="user" class="com.lsq.pojo.User" c:name="lsq" c:age="18"/>-->
+<!--   C(构造: Constructor)命名空间 , 属性依然要设置set方法-->
+    <bean id="userT" class="com.lsq.pojo.User" c:name="lsq" c:age="18"/>
 
 
 

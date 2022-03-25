@@ -28,6 +28,8 @@
         <module>spring-autowire-annotation</module>
         <module>spring-annotation</module>
         <module>spring-configure</module>
+        <module>spring-static-proxy</module>
+        <module>spring-dynamic-proxy</module>
     </modules>
 
     <properties>
