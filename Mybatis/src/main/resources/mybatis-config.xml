@@ -10,10 +10,10 @@
         <property name="password" value="password"/>
     </properties>
 
-
     <settings>
         <setting name="logImpl" value="LOG4J"/>
     </settings>
+
 
 
     <!--配置别名,注意顺序-->

@@ -7,31 +7,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-dynamic-proxy" />
         <module name="spring-01-aop" />
+        <module name="practise02" />
         <module name="SpringMVC" />
         <module name="spring-01-mybatis" />
+        <module name="practise01" />
         <module name="spring-ioc03" />
-        <module name="spring-05-mybatis" />
         <module name="SpringBoot" />
         <module name="spring-ioc04" />
-        <module name="Spring" />
+        <module name="spring-resultmap" />
         <module name="spring-autowire" />
         <module name="spring-04-mybatis" />
+        <module name="spring-01-di" />
+        <module name="mybatis-resultmap01" />
+        <module name="mybatis-limit" />
+        <module name="spring-02-mybatis" />
+        <module name="spring-03-mybatis" />
+        <module name="spring-dynamic-proxy" />
+        <module name="spring-05-mybatis" />
+        <module name="Spring" />
+        <module name="spring-many-to-one" />
         <module name="spring-autowire-annotation" />
         <module name="spring-configure" />
         <module name="spring-ioc01" />
         <module name="spring-ioc02" />
-        <module name="spring-01-di" />
         <module name="spring-annotation" />
-        <module name="spring-02-mybatis" />
         <module name="spring-static-proxy" />
         <module name="Mybatis" />
-        <module name="spring-03-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatis-resultmap" target="17" />
       <module name="Spring Boot" target="17" />
+      <module name="spring-resultmap" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

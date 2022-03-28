@@ -18,10 +18,10 @@ public class AccountMapperImpl implements AccountMapper{
 
     @Override
     public List<Account> selectAccount() {
-        Account account = new Account(3,"小币",150.5);
+        Account account = new Account(10,"小币",150.5);
         AccountMapper mapper = sqlSession.getMapper(AccountMapper.class);
         mapper.addAccount(account);
-        mapper.deleteAccount(7);
+        mapper.deleteAccount(6);
         return mapper.selectAccount();
     }
     //新增
